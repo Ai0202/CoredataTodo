@@ -13,6 +13,8 @@
 		0D8CBF59214E3AB500170DD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D8CBF58214E3AB500170DD1 /* Assets.xcassets */; };
 		0D8CBF5C214E3AB500170DD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D8CBF5A214E3AB500170DD1 /* LaunchScreen.storyboard */; };
 		0D8CBF64214E3D4E00170DD1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8CBF63214E3D4E00170DD1 /* SecondViewController.swift */; };
+		0D8CBF66214E403700170DD1 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8CBF65214E403700170DD1 /* Todo.swift */; };
+		0D8CBF69214E42B800170DD1 /* CoreDataTodo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0D8CBF67214E42B800170DD1 /* CoreDataTodo.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		0D8CBF5B214E3AB500170DD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D8CBF5D214E3AB500170DD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D8CBF63214E3D4E00170DD1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		0D8CBF65214E403700170DD1 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		0D8CBF68214E42B800170DD1 /* CoreDataTodo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataTodo.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				0D8CBF51214E3AB300170DD1 /* AppDelegate.swift */,
 				0D8CBF53214E3AB300170DD1 /* ViewController.swift */,
+				0D8CBF65214E403700170DD1 /* Todo.swift */,
 				0D8CBF63214E3D4E00170DD1 /* SecondViewController.swift */,
 				0D8CBF55214E3AB300170DD1 /* Main.storyboard */,
 				0D8CBF58214E3AB500170DD1 /* Assets.xcassets */,
 				0D8CBF5A214E3AB500170DD1 /* LaunchScreen.storyboard */,
 				0D8CBF5D214E3AB500170DD1 /* Info.plist */,
+				0D8CBF67214E42B800170DD1 /* CoreDataTodo.xcdatamodeld */,
 			);
 			path = CoreDataTodo;
 			sourceTree = "<group>";
@@ -141,6 +147,8 @@
 				0D8CBF64214E3D4E00170DD1 /* SecondViewController.swift in Sources */,
 				0D8CBF54214E3AB300170DD1 /* ViewController.swift in Sources */,
 				0D8CBF52214E3AB300170DD1 /* AppDelegate.swift in Sources */,
+				0D8CBF66214E403700170DD1 /* Todo.swift in Sources */,
+				0D8CBF69214E42B800170DD1 /* CoreDataTodo.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +346,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0D8CBF67214E42B800170DD1 /* CoreDataTodo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0D8CBF68214E42B800170DD1 /* CoreDataTodo.xcdatamodel */,
+			);
+			currentVersion = 0D8CBF68214E42B800170DD1 /* CoreDataTodo.xcdatamodel */;
+			path = CoreDataTodo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 0D8CBF46214E3AB300170DD1 /* Project object */;
 }
